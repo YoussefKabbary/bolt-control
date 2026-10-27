@@ -2,6 +2,16 @@
 
 A PC control panel for Robotics Club projects. Pick a project on the home screen, connect to its Arduino over USB or HC-05 Bluetooth, and control it. Every page also works offline as a practice mode.
 
+![Car page: curve, drift, lights and horn](docs/bolt-car.gif)
+
+| Otto | RGB |
+|---|---|
+| ![Otto walking with servo dials](docs/bolt-otto.gif) | ![RGB presets](docs/bolt-rgb.gif) |
+
+| Home | Voice | Terminal |
+|---|---|---|
+| ![Home](docs/bolt-home.png) | ![Voice](docs/bolt-voice.png) | ![Terminal](docs/bolt-terminal.png) |
+
 | Page | Arduino sketch | Sends |
 |---|---|---|
 | Car | `car_firmware/` | `F B L R S`, diagonals `G I H J`, speed `0-9`, lights `X/x`, horn `Y`, handbrake `D/d` |
