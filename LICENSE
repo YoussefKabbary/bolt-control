@@ -1,0 +1,14 @@
+Copyright (c) 2026 Youssef Kabbary. All rights reserved.
+
+bolt-control, its source code, Arduino sketches and documentation, are the
+property of Youssef Kabbary.
+
+No part of it may be copied, modified, redistributed, deployed, or used to
+build a product or service, commercial or not, without prior written
+permission from the author. Viewing it on GitHub and linking to it are
+welcome.
+
+Third-party components keep their own licenses: the packages listed in
+requirements.txt and the Arduino Servo library.
+
+Contact: https://www.linkedin.com/in/youssef-kabbary/

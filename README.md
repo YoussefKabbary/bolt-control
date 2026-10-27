@@ -42,3 +42,7 @@ pyinstaller --onefile --windowed --name BoltControl bolt_app.py
 ```
 
 Some antivirus programs (Avast, for example) flag new PyInstaller builds as `IDP.Generic`. That is a false positive. Restore the file from quarantine and add an exception.
+
+## License
+
+All rights reserved. See [LICENSE](LICENSE).
