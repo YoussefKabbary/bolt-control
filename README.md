@@ -2,6 +2,8 @@
 
 [![CI](https://github.com/YoussefKabbary/bolt-control/actions/workflows/ci.yml/badge.svg)](https://github.com/YoussefKabbary/bolt-control/actions/workflows/ci.yml)
 
+![Bolt Control](docs/bolt-cover.png)
+
 A PC control panel for Robotics Club projects. Pick a project on the home screen, connect to its Arduino over USB or HC-05 Bluetooth, and control it. Every page also works offline as a practice mode.
 
 ![Car page: curve, drift, lights and horn](docs/bolt-car.gif)
@@ -51,6 +53,8 @@ Voice control uses the speech recognizer built into Windows (English, offline). 
 ```
 python tests/test_app.py
 ```
+
+![CI pipeline](docs/bolt-pipeline.gif)
 
 111 checks drive every page against a fake serial port. GitHub Actions runs them on every push, compiles the five sketches with warnings treated as errors, and builds `BoltControl.exe`. Pushing a `v*` tag publishes it as a release.
 
